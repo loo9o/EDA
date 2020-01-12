@@ -4,7 +4,9 @@
 using namespace std;
 
 /*
-T(n) = {10	n = 1; T(n/2) + c)	n > 1}
+Ejercicio 2 Examen Feb 2019 grupo C
+=================================
+T(n) = {12	n = 1; T(n/2) + c)	n > 1}
 
 a = 1
 b = 2
