@@ -6,7 +6,7 @@ using namespace std;
 /*
 Ejercicio 2 Examen Feb 2019 grupo C
 =================================
-T(n) = {12	n = 1; T(n/2) + c)	n > 1}
+T(n) = {13	n = 1; T(n/2) + c)	n > 1}
 
 a = 1
 b = 2
@@ -19,7 +19,6 @@ O(logn)
 int ceros(const vector<int> &v, int ini, int fin) {
 	int pos = 0, m = (fin - ini) / 2 + ini, n = (fin - ini) + 1;
 	
-	//coste n==1; 1+1+1+1+1+1
 	if(n == 1){
 		if (v[ini] == 0 && v[ini - 1] == 1)
 			pos = ini;
