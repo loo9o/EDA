@@ -52,20 +52,20 @@ bool resuelveCaso() {
 
 int main() {
 	// Para la entrada por fichero.
-	
+/*	
 #ifndef DOMJUDGE
 	std::ifstream in("ej2_ex19b.in");
 	auto cinbuf = std::cin.rdbuf(in.rdbuf());
 #endif
-
+*/
 
 	while (resuelveCaso()) {}
 
-	
+/*	
 #ifndef DOMJUDGE // para dejar todo como estaba al principio
 	std::cin.rdbuf(cinbuf);
 	system("PAUSE");
 #endif
-
+*/
 	return 0;
 }
